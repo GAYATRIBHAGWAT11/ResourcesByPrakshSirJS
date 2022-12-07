@@ -132,4 +132,13 @@ return fact
 }
 console.log(firstFact(8));
 // -----------------------------------------------------
-console.log("Q9 first factorial");
+console.log("Q9 AB check");
+
+
+function ABcheck(str){
+    for(let i=0;i<=str.length;i++){
+        console.log(str[i]);
+    }
+
+}
+console.log(ABcheck('after badly'));
